@@ -17,6 +17,10 @@ def Mainfunction():
 
     clockLabel = ttk.Label(root)
     clockLabel.place(relx=0.5, rely=0.5, anchor=CENTER)
+
+    exitButton = ttk.Button(root, text="X", command=exit)
+    exitButton.place(x=10, y=10)
+
     time()
 
     root.mainloop()
